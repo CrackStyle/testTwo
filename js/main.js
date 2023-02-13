@@ -7,6 +7,15 @@ $('.reviews__sliders').slick({
   dots: true,
   appendDots: $('.reviews__dots'),
   waitForAnimate: false,
+  responsive:
+  [
+    {
+      breakpoint:800,
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+  ],
 })
 
 $('.reviews__prev').on('click', function (i) {

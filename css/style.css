@@ -1795,7 +1795,7 @@ a {
     line-height: 25px;
   }
   .reviews__aroow-circle {
-    top: 410px;
+    display: none;
   }
   .reviews__prev {
     left: 86%;
@@ -2133,13 +2133,30 @@ a {
   .toggle-icon span {
     font-weight: 600;
     font-size: 16px;
-    line-height: 18px;
+    line-height: 24px;
   }
-
+  .reviews__name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .reviews__city {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .reviews__qoute  {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
   .reviews__title {
     font-weight: 500;
     font-size: 40px;
     line-height: 40px;
+  }
+  .reviews__dots {
+    padding-bottom: 50px;
   }
 
   .info__title {
@@ -2318,10 +2335,10 @@ a {
     top: 21px;
   }
   .toggle-icon span::before {
-    top: 22px;
+    top: 19px;
   }
   .accordeon__questions--active .toggle-icon span::before {
-    top: 21px;
+    top: 18px;
   }
   .accordeon-content {
     padding: 0 60px 10px 20px;
@@ -2406,6 +2423,12 @@ a {
     font-size: 14px;
     line-height: 15px;
   }
+  .toggle-icon span::before {
+    top: 23px;
+  }
+  .accordeon__questions--active .toggle-icon span::before {
+    top: 22px;
+}
 
 }
 
@@ -2455,10 +2478,34 @@ a {
     line-height: 20px;
   }
 
+  .reviews__heading {
+    padding-top: 40px;
+  }
+  .reviews__slider-wrapper {
+    padding-top: 40px;
+  }
+  .reviews__name {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .reviews__qoute {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .reviews__dots {
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .reviews__dots button {
+    width: 20px;
+    height: 20px;
+  }
+
   .asked__inner {
     padding: 0 10px;
   }
-  .asked__title {
+  .asked__title,
+  .reviews__title {
     font-weight: 500;
     font-size: 30px;
     line-height: 30px;
